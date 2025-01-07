@@ -1,7 +1,7 @@
 import AdminDashBoard from "../pages/admin/AdminDashBoard";
-import CreateFacaulty from "../pages/admin/CreateFacaulty";
 import CreateStudent from "../pages/admin/CreateStudent";
 import CreateAdmin from "../pages/admin/CreateAdmin";
+import CreateFaculty from "../pages/admin/CreateFaculty";
 
 const adminPaths = [
   {
@@ -18,8 +18,8 @@ const adminPaths = [
         element: <CreateAdmin />,
       },
       {
-        path: "create-facaulty",
-        element: <CreateFacaulty />,
+        path: "create-faculty",
+        element: <CreateFaculty />,
       },
       {
         path: "create-Student",
