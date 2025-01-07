@@ -3,7 +3,7 @@ import App from "../App";
 import AdminDashBoard from "../pages/admin/AdminDashBoard";
 import CreateStudent from "../pages/admin/CreateStudent";
 import CreateAdmin from "../pages/admin/CreateAdmin";
-import CreateFacaulty from "../pages/admin/CreateFaculty";
+import CreateFaculty from "../pages/admin/CreateFaculty";
 
 const router = createBrowserRouter([
   {
@@ -37,8 +37,8 @@ const router = createBrowserRouter([
         element: <CreateAdmin />,
       },
       {
-        path: "create-facaulty",
-        element: <CreateFacaulty />,
+        path: "create-faculty",
+        element: <CreateFaculty />,
       },
     ],
   },
